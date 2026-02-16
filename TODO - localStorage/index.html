@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>TODO List</title>
+  </head>
+
+  <body>
+    <h1>TODO List</h1>
+    <h2>Items</h2>
+    <ul class="item-list"></ul>
+    <div class="input-wrapper">
+      <input type="text" placeholder="Add an item" />
+      <button>Add Item</button>
+    </div>
+
+    <template id="edit-template">
+      <div class="edit-wrapper">
+        <input type="text" placeholder="Edit item" />
+        <button class="save-button">Save Changes</button>
+        <button class="reset-editing-button">Cancel Editing</button>
+      </div>
+    </template>
+    <template id="item-template">
+      <div class="item-wrapper">
+        <span></span>
+        <button class="edit-button">Edit Item</button>
+        <button class="delete-button">Delete Item</button>
+      </div>
+    </template>
+    <script src="index.js"></script>
+  </body>
+</html>
