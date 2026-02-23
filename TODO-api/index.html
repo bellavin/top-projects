@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO</title>
+  </head>
+  <body>
+    <h1>TODO</h1>
+    <h2>Items:</h2>
+    <ul class="item-list"></ul>
+    <div>
+      <input class="add-input" type="text" />
+      <button class="add-button">Add Item</button>
+    </div>
+    <template id="item-template">
+      <li>
+        <div class="item-wrapper">
+          <span></span>
+          <button class="start-editing-button">Edit</button>
+          <button class="delete-button">Delete</button>
+        </div>
+      </li>
+    </template>
+    <template id="edit-template">
+      <li>
+        <div class="edit-wrapper">
+          <input type="text" />
+          <button class="edit-button">Save</button>
+          <button class="cancel-edit-button">Cancel</button>
+        </div>
+      </li>
+    </template>
+    <script type="" src="script.js"></script>
+  </body>
+</html>
